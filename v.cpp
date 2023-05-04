@@ -4,16 +4,16 @@ using namespace std;
 int main() {
 	setlocale(LC_ALL,"Russian");
 	float a,b,c;
-	cout<<"Введите сторону:"<<endl;
+	cout<<"Введите сторону:";
 	cin>>a;
-	cout<<"Введите сторону:"<<endl;
+	cout<<"Введите сторону:";
 	cin>>b;
-	cout<<"Введите сторону:"<<endl;
+	cout<<"Введите сторону:";
 	cin>>c;
 if
     ((pow(c,2)==pow(a,2)+pow(b,2))||(pow(a,2)==pow(c,2)+pow(b,2))||(pow(b,2)==pow(a,2)+pow(c,2)))
-    cout<<"Результат: Треугольник прямоугольный"<<endl;
+    cout<<"Результат: Треугольник прямоугольный";
 else 
-    cout<<"Резeльтат: Треугольник не прямоугольный"<<endl;
+    cout<<"Резeльтат: Треугольник не прямоугольный";
 return 0;
 }
