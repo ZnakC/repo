@@ -2,13 +2,13 @@
 #include <math.h>
 using namespace std;
 int main() {
-	setlocale(LC_ALL,"Russian");
+	setlocale(LC_ALL,"Russian")<<endl;
 	float a,b,c;
-	cout<<"¬ведите сторону:";
+	cout<<"¬ведите сторону:"<<endl;
 	cin>>a;
-	cout<<"¬ведите сторону:";
+	cout<<"¬ведите сторону:"<<endl;
 	cin>>b;
-	cout<<"¬ведите сторону:";
+	cout<<"¬ведите сторону:"<<endl;
 	cin>>c;
 if
     ((pow(c,2)==pow(a,2)+pow(b,2))||(pow(a,2)==pow(c,2)+pow(b,2))||(pow(b,2)==pow(a,2)+pow(c,2)))
